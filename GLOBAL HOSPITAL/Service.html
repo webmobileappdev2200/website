@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Global Hospital</title>
+    <style>
+        * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+section {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.column {
+  width: 100%;
+  padding: 0 1em 1em 1em;
+  text-align: center;
+}
+.card {
+  width: 100%;
+  height: 100%;
+  padding: 2em 1.5em;
+  background: linear-gradient(#ffffff 50%, #2c7bfe 50%);
+  background-size: 100% 200%;
+  background-position: 0 2.5%;
+  border-radius: 5px;
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  transition: 0.5s;
+}
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1f194c;
+  margin: 1em 0;
+}
+p {
+  color: #575a7b;
+  font-size: 15px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+}
+.icon-wrapper {
+  background-color: #2c7bfe;
+  position: relative;
+  margin: auto;
+  font-size: 30px;
+  height: 2.5em;
+  width: 2.5em;
+  color: #ffffff;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  transition: 0.5s;
+}
+.card:hover {
+  background-position: 0 100%;
+}
+.card:hover .icon-wrapper {
+  background-color: #ffffff;
+  color: #2c7bfe;
+}
+.card:hover h3 {
+  color: #ffffff;
+}
+.card:hover p {
+  color: #f0f0f0;
+}
+@media screen and (min-width: 768px) {
+  section {
+    padding: 0 2em;
+  }
+  .column {
+    flex: 0 50%;
+    max-width: 50%;
+  }
+}
+@media screen and (min-width: 992px) {
+  section {
+    padding: 1em 3em;
+  }
+  .column {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+  }
+}
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">Global</h2>
+                <img src="menulogo.png" height="80" width="200">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="Hospital.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Service.html">SERVICE</a></li>
+                    <li><a href="OUR LABS.html">OUR LABS</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+
+                </ul>
+            </div>
+            <div class="search">
+                <input class="srch" type="search" name="" placeholder="Type To Search">
+                <a href="https://www.google.com"> <button class="btn">Search</button></a>
+            </div>
+        </div>
+            <br>
+            <!DOCTYPE html>
+            <html lang="en">
+              <head>
+                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                <title>Responsive Services Section</title>
+                <!-- Font Awesome CDN-->
+                <link
+                  rel="stylesheet"
+                  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+                />
+                <!-- Google Font -->
+                <link
+                  href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+                  rel="stylesheet"
+                />
+                <!-- Stylesheet -->
+                <link rel="stylesheet" href="style.css" />
+              </head>
+              <body>
+                <section>
+                  <div class="row">
+                    <h2 class="section-heading"><font color="#fff">Our Services</font></h2>
+                  </div>
+                  <div class="row">
+                    <div class="column">
+                      <div class="card">
+                        <div class="icon-wrapper">
+                          <i class="fas fa-hammer"></i>
+                        </div>
+                        <h3>DENTAL SERVICES </h3>
+                        <p>
+                        The Dental Department at our Hospital offers:
+
+		•	     Dental Consultation
+		•	     Tooth Extraction
+		•	     Tooth Filling
+		•	     Replacement of teeth both removable and fixed
+		•	     Alignment of teeth
+
+
+
+                        </p>
+                      </div>
+                    </div>
+                    <div class="column">
+                      <div class="card">
+                        <div class="icon-wrapper">
+                          <i class="fas fa-brush"></i>
+                        </div>
+                        <h3>AMBULANCE SERVICES </h3>
+                        <p>
+                            A pivotal area in an emergency situation is the treatment that is received in the first moments.
+                            It is for this reason our Hospital has a 24-hour ambulance service that provides exclusive service to the patients to and from the hospital. We provide a fully equ
+                        </p>
+                      </div>
+                    </div>
+                    <div class="column">
+                      <div class="card">
+                        <div class="icon-wrapper">
+                          <i class="fas fa-wrench"></i>
+                        </div>
+                        <h3>GYNECOLOGY AND OBSTETRICS</h3>
+                        <p>
+                            Whether you are thinking about having a baby or have recently found out that you are expecting, you want a team that will ensure the healthiest, safest pregnancy possible, a birth experience tailored to your needs and wants, and support as you care for your newborn and recover physically.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="column">
+                      <div class="card">
+                        <div class="icon-wrapper">
+                          <i class="fas fa-truck-pickup"></i>
+                        </div>
+                        <h3>GASTROENTOLOGY</h3>
+                        <p>
+                            Diseases of the gastrointestinal system. Medical gastroenterology primarily involves the diagnosis and management of patients using medicines and minimally invasive interventions.
+                            Our Hospital has the complete range of the latest endoscopic facilities, including Upper GIT Endoscopy and allied interventions. Our Hospital offers round-the-clock service in gastrointestinal emergencies like vomiting of blood, foreign body ingestion and hepatic coma.
+
+                        </p>
+                      </div>
+                    </div>
+                    <div class="column">
+                      <div class="card">
+                        <div class="icon-wrapper">
+                          <i class="fas fa-broom"></i>
+                        </div>
+                        <h3>CHEST CLINIC</h3>
+                        <p>
+                            The Chest clinic deals with diseases of the lungs and the bronchial tubes.
+                            The Hospital offers expertise in diagnosis and management of diseases such as: asthma, cystic fibrosis, chronic obstructive pulmonary disease (COPD), lung cancer, occupational
+
+                        </p>
+                      </div>
+                    </div>
+                    <div class="column">
+                      <div class="card">
+                        <div class="icon-wrapper">
+                          <i class="fas fa-plug"></i>
+                        </div>
+                        <h3>DERMATOLOGY AND SKINCARE</h3>
+                        <p>
+                            Clear and glowing skin is the dream of every person. It enhances your beauty and boosts your confidence.
+
+                        We treat common skin disease
+                          •	Acne
+                          •	Skin pigmentation disorders
+                          •	Skin allergies
+                          •	Eczema
+                          •	Psoriasis
+                          •	Skin infections caused by Bacteria, fungus and viruses
+                          •	Abnormal scars (Hypertrophic and Keloid scars)
+                          •	Skin cancer screening
+                          •	vitiligo
+                          •	Warts
+                          •	Diaper rash
+                          •	Hyperhidrosis or Excessive sweatingx
+
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </body>
+            </html>
+    </div>
+    <br>
+
+</body>
+
+</html>

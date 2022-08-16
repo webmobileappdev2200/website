@@ -1,0 +1,65 @@
+
+body {
+    background:url('1.jpg') no-repeat;
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+}
+ 
+.wrap {
+    margin: 5% auto;
+    background: rgba(63, 125, 152, 0.4);
+    width: 35%;
+    font-family: monospace;
+    padding: 0 20px;
+    border-radius: 8px;
+}
+.head {
+    font-size: 38px;
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0;
+}
+.sub-main{
+    position:relative;
+}
+ 
+.sub-main input[type="text"],.sub-main input[type="age"]  {
+    outline: none;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 4px 0px 18px 1px;
+    color: black;
+    padding: 10px 38px;
+    border: none;
+    border-radius: 8px;
+    width: 68%;
+    font-family: monospace;
+}
+.sub-main input[type="button"] {
+    color: white;
+    background: lightseagreen;
+    border: none;
+    padding: 14px 50px;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 2px;
+    margin: 17px;
+    font-family: monospace;
+    cursor:pointer;
+    text-transform:uppercase;
+    transition:0.5s all;
+     
+}
+.sub-main input[type="submit"]:hover {
+    background: #d9edf7;
+    color: black;
+    transition:0.9s all;
+     
+}

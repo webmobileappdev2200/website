@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Global Hospital</title>
+  </head>
+  <body>
+    <body>
+      <div class="main">
+          <div class="navbar">
+              <div class="icon">
+                  <h2 class="logo">Global</h2>
+                  <img src="menulogo.png" height="80" width="200">
+              </div>
+              <div class="menu">
+                  <ul>
+                      <li><a href="Hospital.html">HOME</a></li>
+                      <li><a href="About.html">ABOUT</a></li>
+                      <li><a href="Service.html">SERVICE</a></li>
+                      <li><a href="OUR LABS.html">OUR LABS</a></li>
+                      <li><a href="Contact.html">CONTACT</a></li>
+                      <li><a href="Contact.html">OUR TEAM</a></li>
+                  </ul>
+              </div>
+          </div>
+        </div>
+      </div>
+  </body><p><font color="#fff">THANK YOU FOR CHOOSING GLOBAL HOSPITAL </font></p><br>
+  <form action="" method="get">
+    <fieldset>
+      <legend>Personal details:</legend>
+      <label for="name">Your First Name:<br><input type="text" name="user_name" id="name" required autofocus placeholder="First Name" " title="Please Enter Your Full names"><br><br>
+        <label for="name">Your Last Name:<br><input type="text"name="user_name" id="name" required autofocus placeholder="Last Name" " title="Please Enter Your Full names"><br>
+          <label for="email"><br>Email:<br><input type="text" name="email" id="Email" required placeholder="Please Enter Email" " title="Please enter Email"><br>
+            <label for="Phone"><br>Phone Number:<br><input type="tel" name="phone" id="Phone" required placeholder="Enter correct phone number"><br>
+              <br><select name="Country" required>
+                <option value="Country"></option>
+                <option value="US">US</option>
+                <option value="UK">UK</option>
+                <option value="UGANDA">UGANDA</option>
+                <option value="KENYA">KENYA</option>
+                <option value="GHANA">GHANA</option>
+                <option value="RWANDA">RWANDA</option>
+                <option value="CHINA">CHINA</option>
+                <option value="KOREA">KOREA</option>
+                <option value="JAPAN">JAPAN</option>
+                <option value="EGYPT">EGYPT</option>
+                <option value="NIGERIA">NIGERIA</option>
+                <option value="DRC">DRC</option>
+                <option value="HK">HK</option>
+                <option value="TURKEY">TURKEY</option>
+                <option value="TANZANIA">TANZANIA</option>
+                <option value="ITALY">ITALY</option>
+                <option value="FRANCE">FRANCE</option>
+                <option value="BELGIUM">BELGIUM</option>
+                <option value="BRAZIL">BRAZIL</option>
+                <option value="TOGO">TOGO</option>
+                <option value="CAMEROON">CAMEROON</option>
+                <option value="SPAIN">SPAIN</option>
+                <option value="RUSSIA">RUSSIA</option>
+                <option value="UKRAINE">UKRAINE</option>
+                <option value="MEXICO">MEXICO</option>
+                <option value="INDIA">INDIA</option>
+                <option value="INDONESIA">INDONESIA</option>
+                <option value="PHILIPPINES">PHILIPPINES</option>
+                <option value="CZECH REPUBLIC">CZECH REPUBLIC</option>
+                <option value="HUNGARY">HUNGARY</option>
+                <option value="GERMANY">GERMANY</option>
+              </select>
+    </fieldset>
+   <style>
+       body{
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right,#cbb4d4 ,#20002c
+ );
+}
+.show-btn{
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.25);
+}
+
+.show-btn{
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+
+input[type="checkbox"]{
+    display: none;
+}
+
+#show:checked ~ .container{
+    display: block;
+}
+
+.container{
+    display: none;
+    width: 350px;
+    padding: 20px;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%)
+}
+.container .close-btn{
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.close-btn:hover{
+    color: red;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+form{
+    margin: 20px;
+}
+label{
+    display: block;
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+input{
+    display: block;
+    width: 90%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    padding: 10px;
+    color: white;
+}
+
+button{
+    display: block;
+    width: 95%;
+    padding: 8px;
+    border: none;
+    outline: none;
+    background: linear-gradient(to left, #cbb4d4, 
+    #20002c);
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+
+}
+
+a{
+    text-decoration: none;
+    color: #20002c;
+
+}
+
+.link{
+    margin-top: 30px;
+    text-align: center;
+    color:white;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+   </style>
+</head>
+<body>
+    <input type="checkbox" id="show">
+    <label for="show" class="show-btn">View Form</label>
+
+    <div class="container">
+        <label for="show" class="close-btn" title="close">×</label>
+        <h1>Welcome</h1>
+        <form action="#">
+            <label>Email or Phone</label>
+            <input type="text">
+            <label>Password</label>
+            <input type="password">
+            <a href="#">Forgot Password?</a>
+            <button>Submit</button>
+            <div class="link">Not a member? <a href="#">Sigup here</a></div>
+            
+        </form>
+    </div>
+</body>
+    <br>
+    <fieldset>
+      <legend>Schedule Plan:</legend>
+      <label for="date"><br>Booking Date:</label><br><input type="date" id="date" name="date" min="2022-05-5"><br>
+      <label for="balcony">Do You want spacial Treatment?</label><input id="balcony" type="checkbox" name="balcony" value="yes" checked>
+      <label for="yesMeals">Yes:</label><input id="yesMeals" type="radio" name="meals" value="yesMeals">
+      <label for="noMeals">No:</label><input id="noMeals" type="radio" name="meals" value="noMeals"><br>
+      <textarea rows="5" cols="100" placeholder="Leave Us a Comment......"></textarea>
+      <h2><font color="#fff">After Submitting in the form, You will be directed back to Home Page.</font></h2>
+      <br>
+            <a href="Hospital.html"><input type="submit" value="SUBMIT"></a>
+            <a href="#"></a><input type="reset" value="RESET"></a>
+    </fieldset>
+  </form>
+
+ 
+</html>
